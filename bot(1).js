@@ -352,6 +352,8 @@ client.on('ready', () => {
 client.user.setStatus("idle")
 });
 
+
+const client = new Discord.Client();
 var prefix = "t";
 var adminprefix = 't'
 
